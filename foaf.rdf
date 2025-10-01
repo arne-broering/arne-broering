@@ -1,0 +1,35 @@
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/">
+	<foaf:Person rdf:nodeID='arne'>
+		<foaf:name>Arne Broering</foaf:name>
+		<foaf:title>Mr</foaf:title>
+		<foaf:firstName>Arne</foaf:firstName>
+		<foaf:surname>Broering</foaf:surname>
+		<foaf:gender>male</foaf:gender>
+  		<foaf:homepage rdf:resource="http://ifgi.uni-muenster.de/~arneb/"/>
+  		<foaf:homepage rdf:resource="http://www.facebook.com/arne.broering"/>
+  		<foaf:mbox rdf:resource="mailto:arneb@uni-muenster.de"/>
+  		<foaf:workplaceHomepage rdf:resource="http://ifgi.uni-muenster.de/~arneb/"/>
+  		<foaf:schoolHomepage rdf:resource="http://ifgi.uni-muenster.de/"/>
+		<foaf:based_near>
+			<pos:Point xmlns:pos='http://www.w3.org/2003/01/geo/wgs84_pos#'>
+				<pos:lat>51.953666</pos:lat>
+				<pos:long>7.649666</pos:long>
+			</pos:Point>
+		</foaf:based_near>
+	</foaf:Person>
+	<foaf:Group>
+		<foaf:name>Sensor Web, Web-based Processing and Simulation Lab</foaf:name>
+		<foaf:nick>SWSL</foaf:nick>
+		<foaf:homepage rdf:resource='http://swsl.uni-muenster.de'/>
+	 	<foaf:member rdf:nodeID="arne"/>
+	</foaf:Group>
+	<foaf:Organization>
+		<foaf:name>52North</foaf:name>
+		<foaf:nick>52n</foaf:nick>
+		<foaf:homepage rdf:resource='http://52north.org'/>
+	 	<foaf:member rdf:nodeID="arne"/>
+	</foaf:Organization>
+</rdf:RDF>

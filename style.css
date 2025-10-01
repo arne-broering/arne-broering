@@ -1,0 +1,54 @@
+body {
+	color:#000;
+	font: 13px Arial,sans-serif;
+}
+div#body{
+	position: absolute;
+	top: 0px;
+	/*left: 50%;*/
+	left: 180px;
+	/*margin: 0 0 0 -430px;*/
+	background-color: #EEE;
+	width: 578px;
+}
+
+div#section_contact{
+}
+
+img
+{  border-style: none;
+}
+
+
+/* Text elements
+-------------------------------------------------------------- */
+
+p {
+	margin-top: 20px;
+	margin-bottom: 25px;
+}
+
+ul {
+	margin-top: 20px;
+	list-style:disc;
+}
+
+li {
+	margin-top: 15px;
+}
+
+strong {
+	font: 13px Arial,sans-serif;
+	font-weight: bold;
+}
+
+a:link, a:active, a:visited{
+     color: #1c447e;
+	 text-decoration: none;
+}
+
+a:hover{
+     background-color: white;
+     color: #1c447e;
+     text-decoration: underline;
+}
